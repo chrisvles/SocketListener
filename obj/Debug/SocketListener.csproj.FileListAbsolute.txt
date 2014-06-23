@@ -1,0 +1,2 @@
+c:\users\a\documents\visual studio 2013\Projects\SocketListener\SocketListener\bin\Debug\SocketListener.exe.config
+C:\Users\a\Documents\Visual Studio 2013\Projects\SocketListener\SocketListener\obj\Debug\SocketListener.csprojResolveAssemblyReference.cache
