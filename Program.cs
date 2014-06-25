@@ -29,15 +29,6 @@ namespace SocketListener
         //Program starts, listen on thread
         static void Main(string[] args)
         {
-            listening_thread = new Thread(new ThreadStart(ListeningThread));
-            listening_thread.Start();
-        }
-
-
-
-        private static void ListeningThread() 
-        {
-    
             //Set up endpoint
             IPAddress EndPointIP = IPAddress.Parse(ListeningIP);
             //Initiate listener
@@ -65,6 +56,10 @@ namespace SocketListener
                 Thread.Sleep(30);
             }
         }
+
+
+
+      
 
         /*
          * This runs when a response is found
